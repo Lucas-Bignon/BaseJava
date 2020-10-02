@@ -64,3 +64,5 @@ public class Bank {
 		numberOfCount = number;
 	}
 * "Bank" est donc une class.
+
+# TEST
