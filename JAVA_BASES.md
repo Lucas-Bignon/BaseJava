@@ -64,3 +64,11 @@ public class Bank {
 		numberOfCount = number;
 	}
 * "Bank" est donc une class.
+
+### CONDITIONS 
+
+La condition permet d'éxécuter une fonction/donner un résultat si un paramètre est validé.
+
+### BOUCLE / LOOP
+
+la boucle permet d'éxécuter une fonction tant qu'un paramètre/condition est remplit. 
