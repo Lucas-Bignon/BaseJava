@@ -65,8 +65,5 @@ public class Bank {
 	}
 * "Bank" est donc une class.
 
-# TEST
+## FINISH
 
-### CONDITIONS 
-
-### LOOPS
