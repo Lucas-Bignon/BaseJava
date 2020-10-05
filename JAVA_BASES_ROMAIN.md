@@ -120,6 +120,7 @@ commentaire de plusieur ligne:
 ------------------------
 ------------------------
 
+<<<<<<< HEAD:JAVA_BASES.md
 ### LES ASSIGNATIONS
 
 Elles sont les valeurs associer a une variable.
@@ -136,3 +137,13 @@ exemple :
 
 Une instruction se termine toujours avec ;
 >>>>>>> origin/Trystan
+=======
+	public Bank(String name, double solde, int number) {
+		countName = name;
+		soldeCount = solde;
+		numberOfCount = number;
+	}
+* "Bank" est donc une class.
+
+
+>>>>>>> origin/romain:JAVA_BASES_ROMAIN.md
