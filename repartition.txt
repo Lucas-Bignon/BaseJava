@@ -1,0 +1,31 @@
+La notion de variable [romain]
+Les types de variables [romain]
+Les mots clefs [trystan]
+Les opérateurs [romain]
+L'évaluation [lucas]
+L'assignation [amin]
+L'instruction [trystan]
+Le bloc d'instructions [trystan]
+Le commentaire [amin]
+La condition [lucas]
+La boucle [amin]
+La fonction (appelée méthode de classe en Java) [romain]
+Les paramètres [lucas]
+
+
+--Lucas
+
+L'évaluation [lucas]
+La condition [lucas]
+Les paramètres [lucas]
+
+
+titre : ###
+===========
+sous titre :##
+
+petite
+*
+   *
+
+-->
