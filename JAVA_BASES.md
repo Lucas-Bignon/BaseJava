@@ -3,14 +3,16 @@
 ------------------------
 ## INTRODUCTION
 
-Java est un langage POO. C'est un Langage compilé ce qui signifie qu'on peut le compiler afin de voir si notre code est correct, auquel cas voir ou sont les erreurs. 
+Java est un langage POO. C'est un **Langage compilé** ce qui signifie qu'on peut le compiler afin de voir si notre code est correct, auquel cas voir ou sont les erreurs. 
 - System.out.println permet de print le résultat sur le terminal 
+
+Java est un langage orienté objet : tout appartient à une classe sauf les variables de types primitives.
 
 ------------------------
 ------------------------
 ### VARIABLES
 
-Elles servent à stocker une information. Les variables sont mises en mémoire dans la ram de l'ordi. Il existe plusieurs types de variables pour plusieurs types d'informations : 
+Elles servent à **stocker une information**. Les variables sont mises en mémoire dans la ram de l'ordi. Il existe plusieurs types de variables pour plusieurs types d'informations : 
  
 * Integer = nombre entier (1,5,22,540566) 
 * Double = nombre décimaux (3.5, 22.45)
@@ -28,7 +30,7 @@ int numbers  --> int étant le **type**, **numbers** étant le nom de la var
 
 ### OPERATORS 
 
-Les operators servent à additionner/soustraire/multiplier etc des statements notamment des variables.
+Les operators servent à **additionner/soustraire/multiplier** etc des statements notamment des variables.
 Il existe donc plusieurs operators :
 
 * (+ - == / *)
@@ -43,7 +45,7 @@ Il existe donc plusieurs operators :
 
 ### CLASS
 
-Une class permet de ... C'est obligatoire en Java de déclarer une class pour que le code soit fonctionnel. 
+Une class est une description abstraite d'un objet. C'est obligatoire en Java de déclarer une class pour que le code soit fonctionnel. 
 
 * statement = état (solde d'un compte bancaire) 
 * behavior = comportement (retrait/depot sur le compte bancaire)
@@ -65,6 +67,33 @@ public class Bank {
 	}
 * "Bank" est donc une class.
 
-# bonjour
+------------------------
+------------------------
 
-## titre 2
+### LES MOTS CLEFS
+
+Dans le langage de programmation Java , un mot - clé est l’un des 51 mots réservés qui ont une **signification prédéfinie** dans le langage; 
+
+pour cette raison, les programmeurs **ne peuvent pas utiliser de mots-clés comme noms** de variables , de méthodes , de classes ou comme tout autre identifiant .
+
+Exemple de mots clefs: 
+
+* if
+* boolean
+* do
+* etc ...
+
+------------------------
+------------------------
+
+### L'INSTRUCTION ET LE BLOC D'INSTRUCTION
+
+Une instruction permettent de **lancer des actions** (un test, une boucle, une assertion, ...).
+
+le bloc d’instructions peut contenir plusieurs instructions (il peut aussi en contenir qu’une unique).
+
+	{
+    System.out.print( «Veuillez renseigner votre nom : « );
+    String nom = System.console().readline();
+    System.out.println( «Votre nom est : « + nom );
+	}
