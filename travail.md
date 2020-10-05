@@ -5,14 +5,14 @@ L'évaluation :
 ### Évaluation d'exécution
 
 On doit résoudre cette tâche conformément à la description de la tâche, en utilisant le language demandé par le compilateur exemple une
-syntaxe en PHP ne peut pas s'executer dans un programme java.
+syntaxe en **LUA** ne peut pas s'executer dans un programme **JAVA**.
 
 
 ### Évaluation de TaskRuntime
 
-On doit Démontrer la capacité d'un langage pour les programmes à exécuter du code écrit dans le langage fourni au moment de l'exécution.
-Un exemple concret les expression et instruction autorisé par le programme, pour aller plus loin les environnements, les arguments
-et l'environnement lexical (utf-8,etc...). Les problèmes lié a une incomprhéhension des termes precedament cité résulteront d'une erreur dite Runtime.
+On doit démontrer la capacité d'un langage pour les programmes à exécuter du code écrit dans le langage fourni au moment de l'exécution.
+On y retrouve les expression et instruction **autorisé** par le programme, pour aller plus loin les environnements, les arguments
+et l'environnement lexical (utf-8,etc...). Si il y a une erreur de syntaxe, d'indentation ou autres une erreur runtime apparait :/ .
 
 ![Exemple](https://www.google.com/url?sa=i&url=https%3A%2F%2Fairbrake.io%2Fblog%2Fwhat-is%2Fruntime-error&psig=AOvVaw3vzvLs2hWMFzn09vyK0KN_&ust=1601991283114000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiop9_InewCFQAAAAAdAAAAABAD)
 
@@ -31,10 +31,10 @@ La condition :
 =================
 
 
-On appelle structure conditonnelle les instructions qui permettent de tester si une condition est vraie ou non. Ces structures conditionnelles 
+On appelle structure conditionel les instructions qui permettent de tester si une condition est vraie ou non. Ces structures conditionnelles 
 peuvent être associées à des structures qui se répètent suivant la réalisation de la condition, on appelle ces structures des structures de boucle
 
-## La notion de bloc
+## La notion de bloucle
 
 * L'instruction if :
 
@@ -64,7 +64,9 @@ pour laquelle la boucle s'arrête (basiquement une condition qui teste si la val
 
 
 
-Les boucles sont des structures qui permettent d'exécuter plusieurs fois la même série d'instructions jusqu'à ce qu'une condition ne soit plus réalisée...
+## Les boucles :
+ 
+Elles sont des structures qui permettent d'exécuter plusieurs fois la même série d'instructions jusqu'à ce qu'une condition ne soit plus réalisée...
 On appelle parfois ces structures instructions répétitives ou bien itérations.
 La façon la plus commune de faire une boucle, est de créer un compteur (une variable qui s'incrémente, c'est-à-dire qui augmente de 1 à chaque tour 
 de boucle) et de faire arrêter la boucle lorsque le compteur dépasse une certaine valeur.
