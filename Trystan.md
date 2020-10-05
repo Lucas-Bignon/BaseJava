@@ -1,6 +1,6 @@
 ### LES MOTS CLEFS
 
-Dans le langage de programmation Java , un mot - clé est l’un des 51 mots réservés qui ont une **signification prédéfinie** dans le langage; 
+Dans le langage de programmation Java , un mot-clé est l’un des 51 mots réservés qui ont une **signification prédéfinie** dans le langage; 
 
 pour cette raison, les programmeurs **ne peuvent pas utiliser de mots-clés comme noms** de variables , de méthodes , de classes ou comme tout autre identifiant.
 
@@ -18,10 +18,10 @@ Exemple de mots clefs:
 
 ### L'INSTRUCTION ET LE BLOC D'INSTRUCTION
 
-Une instruction permettent de **lancer des actions** (un test, une boucle, une assertion, ...).
+Une instruction permettent de **lancer des actions** (un test, une boucle, ...).
 Elle demande directement à l'ordinateur de faire quelque chose
 
-le bloc d’instructions peut contenir plusieurs instructions (il peut aussi en contenir qu’une unique).
+le bloc d’instructions peut contenir une seule ou plusieurs instructions.
 
 	{
     System.out.print( «Veuillez renseigner votre nom : « );
