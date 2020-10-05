@@ -1,11 +1,6 @@
-i# JAVA 
+# JAVA 
 ------------------------
 ------------------------
-## PREFACE
-JAVA a été créer par James Gosling et Patrick Naughton, employés de Sun Microsystems, avec le soutien de Bill Joy.
-La société Sun a été ensuite rachetée en 2009 par la société Oracle qui détient et maintient désormais Java.
-
-Une particularité de Java est que les logiciels écrits dans ce langage sont compilés vers une représentation binaire intermédiaire qui peut être exécutée dans une machine virtuelle Java (JVM) en faisant abstraction du système d'exploitation.
 ## INTRODUCTION
 
 Java est un langage POO. C'est un Langage compilé ce qui signifie qu'on peut le compiler afin de voir si notre code est correct, auquel cas voir ou sont les erreurs. 
