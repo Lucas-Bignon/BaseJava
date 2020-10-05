@@ -1,4 +1,4 @@
-i# JAVA 
+# JAVA 
 ------------------------
 ------------------------
 ## INTRODUCTION
@@ -63,6 +63,7 @@ public class Bank {
 		soldeCount = solde;
 		numberOfCount = number;
 	}
+<<<<<<< HEAD
 * "Bank" est donc une class.
 
 <<<<<<< HEAD
@@ -162,3 +163,6 @@ exemple :
 	const string Lucas = "The rock" + "rocky"
 	System.out.println(Lucas) // print : The rock rocky
 >>>>>>> origin/Amin
+=======
+* "Bank" est donc une class.
+>>>>>>> origin/lucas
