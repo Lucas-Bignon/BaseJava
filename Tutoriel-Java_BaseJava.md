@@ -1,6 +1,7 @@
 # JAVA 
 ------------------------
 ------------------------
+
 ## INTRODUCTION
 
 Java est un langage POO. C'est un Langage compilé ce qui signifie qu'on peut le compiler afin de voir si notre code est correct, auquel cas voir ou sont les erreurs. 
@@ -22,6 +23,8 @@ Une variable se décompose comme telle :
 
 int numbers  --> int étant le **type**, **numbers** étant le nom de la var
 
+----------------------------------
+-----------------------------
 
 ### LES MOTS CLEFS
 
@@ -40,6 +43,7 @@ Exemple de mots clefs:
 
 ------------------------
 ------------------------
+
 ### OPERATORS 
 
 Les operators servent à additionner/soustraire/multiplier etc des statements notamment des variables.
@@ -54,17 +58,16 @@ Il existe donc plusieurs operators :
 ------------------------
 ------------------------
 
-
-L'évaluation :
+### EVALUATION
 ================
 
-### Évaluation d'exécution
+#### Évaluation d'exécution
 
 On doit résoudre cette tâche conformément à la description de la tâche, en utilisant le language demandé par le compilateur exemple une
 syntaxe en **LUA** ne peut pas s'executer dans un programme **JAVA**.
 
 
-### Évaluation de TaskRuntime
+#### Évaluation de TaskRuntime
 
 On doit démontrer la capacité d'un langage pour les programmes à exécuter du code écrit dans le langage fourni au moment de l'exécution.
 On y retrouve les expression et instruction **autorisé** par le programme, pour aller plus loin les environnements, les arguments
@@ -80,7 +83,8 @@ La seule méthode pour résoudre les problèmes reste de debogguer via print par
 
 ![Exemple](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww3.ntu.edu.sg%2Fhome%2Fehchua%2Fprogramming%2Fjava%2FJ1a_Introduction.html&psig=AOvVaw2mXbqJt_OA0-4vjlGVDsR2&ust=1601985100387000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjjmN2xnewCFQAAAAAdAAAAABAK)
 
-
+-----------------------
+------------------------------
 
 ### LES ASSIGNATIONS
 
@@ -91,7 +95,8 @@ exemple :
 	const string Lucas = "The rock" + "rocky"
 	System.out.println(Lucas) // print : The rock rocky
 
-
+-----------------------------
+------------------------
 
 ### L'INSTRUCTION ET LE BLOC D'INSTRUCTION
 
@@ -108,6 +113,8 @@ le bloc d’instructions peut contenir une seule ou plusieurs instructions.
 
 Une instruction se termine toujours avec ;
 
+----------------------------
+----------------------------------
 
 ### LE COMMENTAIRE
 
@@ -130,14 +137,12 @@ commentaire de plusieur ligne:
 ------------------------
 ------------------------
 
-La condition :
-=================
-
+### CONDITIONS
 
 On appelle structure conditionel les instructions qui permettent de tester si une condition est vraie ou non. Ces structures conditionnelles 
 peuvent être associées à des structures qui se répètent suivant la réalisation de la condition, on appelle ces structures des structures de boucle
 
-## La notion de bloucle
+#### La notion de bloucle
 
 * L'instruction if :
 
@@ -166,8 +171,7 @@ pour laquelle la boucle s'arrête (basiquement une condition qui teste si la val
 ![Exemple](https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FOKiXQXRQQ58%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DOKiXQXRQQ58&tbnid=HOImxNUeDWPjWM&vet=12ahUKEwjFqpyLu53sAhUCw4UKHSl5CecQMygAegUIARCpAQ..i&docid=Yti2SOZZqxmY0M&w=1280&h=720&q=boucle%20for%20java&ved=2ahUKEwjFqpyLu53sAhUCw4UKHSl5CecQMygAegUIARCpAQ)
 
 
-
-## Les boucles :
+* Les boucles :
  
 Elles sont des structures qui permettent d'exécuter plusieurs fois la même série d'instructions jusqu'à ce qu'une condition ne soit plus réalisée...
 On appelle parfois ces structures instructions répétitives ou bien itérations.
@@ -176,8 +180,10 @@ de boucle) et de faire arrêter la boucle lorsque le compteur dépasse une certa
 
 ![Exemple](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.moserware.com%2F2008%2F02%2Ffor-loops-using-i-i-enumerators-or-none.html&psig=AOvVaw1zKkuJK6QgfpuIxAxmk4gj&ust=1601990055721000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKDDrpXEnewCFQAAAAAdAAAAABAD)
 
+------------------
+--------------------
 
-### LA BOUCLE
+### BOUCLE AVANCE
 
 Une boucle est un outil de programmation qui permet aux développeurs de répéter le même bloc de code jusqu'à ce qu'une certaine condition soit remplie.
 Elle permet d'éviter les répétitions dans notre code et de gagner du temps.
@@ -256,10 +262,10 @@ public class Bank {
 	}
 * "Bank" est donc une class.
 
+------------------------
+-----------------------
 
-Les paramètres :
-==================
-
+### PARAMETRE
 
 La notion de classe paramétrée est présente dans Java depuis la version 5.0. On appelle cela des classes généric.
 Cette notion a été empruntée au langage C++ et permet, entre autre, de spécialiser les classes en fonction d'objet et de les manipuler 
@@ -274,4 +280,7 @@ ce type lors de la déclaration de la référence et lors de la création de l�
 
 ![Exemple](https://www.google.com/imgres?imgurl=https%3A%2F%2Frmdiscala.developpez.com%2Fcours%2FLesChapitres.html%2FJava%2FCours3%2Fclassembre2.png&imgrefurl=https%3A%2F%2Frmdiscala.developpez.com%2Fcours%2FLesChapitres.html%2FJava%2FCours3%2FChap3.1.htm&tbnid=fvgAFwwzsNXDCM&vet=12ahUKEwim5YnYxp3sAhUBVhoKHRDHCwkQMygEegUIARCYAQ..i&docid=rFF4TWau_VRO5M&w=512&h=298&q=parametre%20de%20classe%20java&ved=2ahUKEwim5YnYxp3sAhUBVhoKHRDHCwkQMygEegUIARCYAQ)
 
-
+--------------------
+-------------------
+*Merci de votre attention
+* Realisé par le boss Trystan, le roi romain, le dieu amin, et DarkLucas44HackeurX°9DDOSMASTER the best kikkoo of world.
