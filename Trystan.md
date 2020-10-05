@@ -19,6 +19,7 @@ Exemple de mots clefs:
 ### L'INSTRUCTION ET LE BLOC D'INSTRUCTION
 
 Une instruction permettent de **lancer des actions** (un test, une boucle, une assertion, ...).
+Elle demande directement à l'ordinateur de faire quelque chose
 
 le bloc d’instructions peut contenir plusieurs instructions (il peut aussi en contenir qu’une unique).
 
@@ -27,3 +28,5 @@ le bloc d’instructions peut contenir plusieurs instructions (il peut aussi en 
     String nom = System.console().readline();
     System.out.println( «Votre nom est : « + nom );
 	}
+
+Une instruction se termine toujours avec ;
